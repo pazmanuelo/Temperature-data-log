@@ -30,4 +30,5 @@ def write_data(temp):
 while True:
     temp = getTemp()
     write_data(temp)
+    print("Writing...")
     sleep(10)
